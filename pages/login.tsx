@@ -33,6 +33,7 @@ function login() {
       <Head>
         <title>Netflix clone</title>
         <link rel="icon" href="/favicon.icon" />
+        <meta name="google-site-verification" content="QhGjgk-QxxCuvSs23DpWU3b7tzzjzIHAGrkKw-SGMOk" />
       </Head>
       <Image
         src="https://rb.gy/p2hphi"
