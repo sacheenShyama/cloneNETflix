@@ -40,15 +40,16 @@ function login() {
         className="-z-10 !hidden opacity-60 sm:!inline"
         objectFit="cover"
       />
-
-      <img
-        src="https://rb.gy/ulxxee"
-        alt=""
-        className="absolute left-4 top-4 cursor-pointer object-contain md:left-10 md:top-6"
-        width={150}
-        height={150}
-      />
-
+      <span className='absolute left-4 top-4 cursor-pointer object-contain md:left-10 md:top-6'>
+        <img
+          src="https://rb.gy/ulxxee"
+          alt=""
+          className="absolute left-4 top-4 cursor-pointer object-contain md:left-10 md:top-6"
+          width={150}
+          height={150}
+        />
+        <span className="text-[#e50914]">clone</span>
+      </span>
       <form
         onSubmit={handleSubmit(onSubmit)}
         action=""
@@ -96,7 +97,7 @@ function login() {
           New to Netflix? fill-up details and click on --
           <button
             type="submit"
-            className="text-[#e50914] hover:underline font-bold"
+            className="font-bold text-[#e50914] hover:underline"
             onClick={() => setLogin(false)}
           >
             Sign Up
