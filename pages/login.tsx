@@ -40,15 +40,15 @@ function login() {
         className="-z-10 !hidden opacity-60 sm:!inline"
         objectFit="cover"
       />
-      <span className='absolute left-4 top-4 cursor-pointer object-contain md:left-10 md:top-6'>
-        <img
+      <span className="absolute left-4 top-4 cursor-pointer object-contain md:left-10 md:top-6">
+        {/* <img
           src="https://rb.gy/ulxxee"
           alt=""
           className="absolute left-4 top-4 cursor-pointer object-contain md:left-10 md:top-6"
           width={150}
           height={150}
-        />
-        <span className="text-[#e50914]">clone</span>
+        /> */}
+        <span className="text-5xl text-[#e50914]">Netflix clone</span>
       </span>
       <form
         onSubmit={handleSubmit(onSubmit)}
